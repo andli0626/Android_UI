@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FlowIndicator">
+        <attr format="integer" name="count" />
+        <attr format="dimension" name="space" />
+        <attr format="dimension" name="point_size" />
+        <attr format="color|reference" name="point_seleted_color" />
+        <attr format="color|reference" name="point_normal_color" />
+        <attr format="dimension" name="point_radius" />
+    </declare-styleable>
+
+</resources>

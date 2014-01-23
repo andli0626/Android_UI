@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- 系统设置界面 -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:summary="Application settings"
+		android:title="常用设置">
+
+
+		<CheckBoxPreference android:defaultValue="true"
+			android:key="fling" android:summary="滑动设置" android:title="是否循环滚动" />
+
+	</PreferenceCategory>
+
+
+</PreferenceScreen>

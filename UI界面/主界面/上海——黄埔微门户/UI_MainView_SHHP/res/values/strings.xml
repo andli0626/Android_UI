@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TestActivity!</string>
+    <string name="app_name">Test</string>
+
+    <!-- 主界面：顶部标题栏 -->
+    <string name="title1">要闻</string>
+    <string name="title2">动态</string>
+    <string name="title3">办事</string>
+    <string name="title4">互动</string>
+    <string name="title5">投资</string>
+    <string name="title6">旅游</string>
+
+    <!-- 主界面底部标题 -->
+    <string name="bottom_title_hpyw">黄埔要闻</string>
+    <string name="bottom_title_jrhp">今日黄埔</string>
+    <string name="bottom_title_csmp">城市名片</string>
+    <string name="bottom_title_more">更多..</string>
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="bottom"
+    android:background="@drawable/main_bottombar_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/beforeimg"
+        style="@style/main_footbar_cutline"
+        android:src="@drawable/previous_button"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/tab5"
+        style="@style/bottom_button"
+        android:tag="radio_button2"
+        android:text="信息公开"
+        android:textStyle="bold" />
+
+    <ImageView
+        style="@style/main_footbar_cutline"
+        android:src="@drawable/bottom_cutline" />
+
+    <Button
+        android:id="@+id/tab6"
+        style="@style/bottom_button"
+        android:tag="radio_button2"
+        android:text="生活服务"
+        android:textStyle="bold" />
+
+    <ImageView
+        style="@style/main_footbar_cutline"
+        android:src="@drawable/bottom_cutline" />
+
+    <Button
+        android:id="@+id/tab7"
+        style="@style/bottom_button"
+        android:tag="radio_button2"
+        android:text="在线访谈"
+        android:textStyle="bold" />
+
+    <ImageView
+        style="@style/main_footbar_cutline"
+        android:src="@drawable/bottom_cutline" />
+
+    <Button
+        android:id="@+id/tab8"
+        style="@style/bottom_button"
+        android:tag="radio_button2"
+        android:text="用户中心"
+        android:textStyle="bold" />
+
+</LinearLayout>

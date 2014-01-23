@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">模仿Path的效果示例：</string>
+    <string name="app_name">mypath</string>
+</resources>

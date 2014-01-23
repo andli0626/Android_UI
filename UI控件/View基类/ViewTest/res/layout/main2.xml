@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="5dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:gravity="center|left"
+                    android:text="出租户编号" />
+
+                <EditText
+                    android:id="@+id/bianhao_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+                <Button
+                    android:id="@+id/bianhaosearch_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:gravity="center|left"
+                    android:text="出租类型" />
+
+                <Spinner
+                    android:id="@+id/leixing_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:gravity="center|left"
+                    android:text="镇" />
+
+                <Spinner
+                    android:id="@+id/zhen_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:gravity="center|left"
+                    android:text="派出所" />
+
+                <Spinner
+                    android:id="@+id/paichusuo_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/shequtextview"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:gravity="center|left"
+                    android:text="所在社区" />
+
+                <Spinner
+                    android:id="@+id/shequ_spinner"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <TextView
+                    android:id="@+id/datetextview"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:gravity="center|left"
+                    android:text="登记日期" />
+
+                <Button
+                    android:id="@+id/dengjitime_button"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:text="日期选择"
+                    android:visibility="gone" >
+                </Button>
+
+                <EditText
+                    android:id="@+id/dengjitime_et"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:hint="格式20130602"
+                    android:inputType="number"
+                    android:maxLength="8"
+                    android:textSize="14sp" >
+                </EditText>
+
+                <Button
+                    android:id="@+id/inputtype_button"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp"
+                    android:layout_weight="1"
+                    android:text="手动输入" >
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/nametextview"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:gravity="center|left"
+                    android:text="出租人姓名" />
+
+                <EditText
+                    android:id="@+id/czr_name_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:id="@+id/shengaotextview"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:gravity="center|left"
+                    android:text="联系电话" />
+
+                <EditText
+                    android:id="@+id/phone_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:gravity="center|left"
+                    android:text="身份证号" />
+
+                <EditText
+                    android:id="@+id/personid_edittext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="45dp" >
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="45dp"
+                    android:gravity="center|left"
+                    android:text="出租人地址" />
+
+                <EditText
+                    android:id="@+id/czr_address_textview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp"
+                    android:layout_weight="1" >
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

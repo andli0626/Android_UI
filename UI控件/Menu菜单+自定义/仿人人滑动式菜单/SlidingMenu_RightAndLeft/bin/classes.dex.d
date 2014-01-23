@@ -1,0 +1,21 @@
+F:\workspace\SlidingMenu\bin\classes.dex : \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\BuildConfig.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\MainActivity.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\R$attr.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\R$color.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\R$drawable.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\R$id.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\R$layout.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\R$menu.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\R$string.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\R$style.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\R.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\SlidingMenuView$1.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\SlidingMenuView.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\TestActivity1.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\TestActivity2.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\TestActivity3.class \
+F:\workspace\SlidingMenu\bin\classes\cindy\example\slidingmenu\TestActivity4.class \
+F:\workspace\SlidingMenu\bin\classes\R.java.d \
+f:\Android\android-sdk\tools\support\annotations.jar \
+F:\workspace\SlidingMenu\libs\android-support-v4.jar \

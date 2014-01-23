@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:gravity="center" android:orientation="vertical" android:id="@+id/tabsLayout"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+	<!--垂直排列 -->
+	<LinearLayout android:background="@drawable/tabselector"
+		android:layout_alignParentBottom="true" android:gravity="center"
+		android:orientation="vertical" android:id="@+id/tabsLayout"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+		<ImageView android:background="@drawable/tab_bg" android:id="@+id/main_activity_tab_image"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:scaleType="center" />
+		<TextView android:textSize="17sp" android:id="@+id/main_activity_tab_text"
+			android:textColor="#FFFFFF" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Title" />
+	</LinearLayout>
+</LinearLayout>

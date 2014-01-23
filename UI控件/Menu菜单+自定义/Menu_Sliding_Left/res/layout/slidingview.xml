@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.andli.widget.SlidingMenuView
+        android:id="@+id/sliding_menu_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/left_sliding_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@android:color/darker_gray"
+            android:orientation="vertical"
+            android:padding="5dip" >
+
+            <Button
+                android:id="@+id/hidemenu_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="返回主页"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/showRight_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/showview1_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="显示页面" />
+
+            <Button
+                android:id="@+id/showview2_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="显示页面" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/sliding_body"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/right_sliding_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:background="@android:color/darker_gray"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/right_hidemenu_btn"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="隐藏菜单"
+                android:visibility="gone" />
+        </LinearLayout>
+    </com.andli.widget.SlidingMenuView>
+
+</RelativeLayout>

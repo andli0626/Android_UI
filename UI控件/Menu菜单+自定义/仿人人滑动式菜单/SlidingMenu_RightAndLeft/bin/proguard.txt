@@ -1,0 +1,41 @@
+# view AndroidManifest.xml #generated:14
+-keep class cindy.example.slidingmenu.MainActivity { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:6
+-keep class cindy.example.slidingmenu.SlidingMenuView { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class cindy.example.slidingmenu.TestActivity1 { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class cindy.example.slidingmenu.TestActivity2 { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class cindy.example.slidingmenu.TestActivity3 { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class cindy.example.slidingmenu.TestActivity4 { <init>(...); }
+
+# onClick res/layout/activity_main.xml #generated:28
+-keepclassmembers class * { *** changeTab1(...); }
+
+# onClick res/layout/activity_main.xml #generated:34
+-keepclassmembers class * { *** changeTab2(...); }
+
+# onClick res/layout/activity_main.xml #generated:68
+-keepclassmembers class * { *** changeTab3(...); }
+
+# onClick res/layout/activity_main.xml #generated:74
+# onClick res/layout/activity_main.xml #generated:80
+-keepclassmembers class * { *** changeTab4(...); }
+
+# onClick res/layout/activity_main.xml #generated:18
+# onClick res/layout/activity_main.xml #generated:58
+-keepclassmembers class * { *** hideMenu(...); }
+
+# onClick res/layout/activity_main.xml #generated:63
+-keepclassmembers class * { *** showLeftMenu(...); }
+
+# onClick res/layout/activity_main.xml #generated:23
+-keepclassmembers class * { *** showRightMenu(...); }
+

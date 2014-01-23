@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="register_tip">提示 \n带*项为必填项\n填写邮箱方便您找回密码以及了解更多QQ信息</string>
+    <string name="app_name">注册界面</string>
+
+</resources>

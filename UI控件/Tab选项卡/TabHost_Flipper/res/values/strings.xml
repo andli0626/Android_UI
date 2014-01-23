@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TabHost滑动切换</string>
+    <string name="main_home">首页</string>
+    <string name="main_comment">评论</string>
+    <string name="main_message">私信</string>
+    <string name="main_edit">编写</string>
+    <string name="main_reload">刷新</string>
+    <string name="more">更多</string>
+
+</resources>

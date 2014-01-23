@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- OA主界面：标题项 -->
+    <string-array name="oa_name">
+        <item>公务邮件</item>
+        <item>通讯录</item>
+        <item>通知公告</item>
+        <item>附件管理</item>
+        <item>公文处理</item>
+        <item>信息发布</item>
+        <item>数据同步</item>
+        <item>备份还原</item>
+        <item>软件更新</item>
+    </string-array>
+    <!-- CGT主界面：标题项 -->
+    <string-array name="cgt_name">
+        <item>问题上报</item>
+        <item>监督任务</item>
+        <item>简易执法</item>
+        <item>地图浏览</item>
+        <item>法律法规</item>
+        <item>办公助理</item>
+        <item>语音呼叫</item>
+        <item>数据同步</item>
+        <item>系统设置</item>
+    </string-array>
+
+</resources>

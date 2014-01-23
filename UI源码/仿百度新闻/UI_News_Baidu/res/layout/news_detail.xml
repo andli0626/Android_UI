@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background" >
+
+    <RelativeLayout
+        android:id="@id/news_detail_titlelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_titlebar_background" >
+
+        <TextView
+            android:id="@id/news_detail_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15.0dip"
+            android:layout_marginTop="8.0dip"
+            android:text="@string/maintab_buttom_1"
+            android:textColor="@color/white"
+            android:textSize="23.0sp" />
+
+        <Button
+            android:id="@id/news_detail_previous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/news_detail_next"
+            android:layout_toLeftOf="@id/news_detail_next"
+            android:background="@drawable/image_titlebar_button_previous_disabled" />
+
+        <Button
+            android:id="@id/news_detail_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="7.0dip"
+            android:background="@drawable/image_titlebar_button_next" />
+    </RelativeLayout>
+
+    <ViewFlipper 
+        android:id="@id/news_body_veiw"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/news_detail_titlelayout"
+        android:layout_marginBottom="44.0dip"/>
+
+    <RelativeLayout
+        android:id="@id/news_detail_buttom_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/image_popup_menu_button_cancel_selected"
+        android:gravity="center_vertical" >
+
+        <Button
+            android:id="@id/news_detail_buttom_layout_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/image_toolbar_button_forward" />
+
+        <Button
+            android:id="@id/news_detail_buttom_layout_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/news_detail_buttom_layout_btn1"
+            android:background="@drawable/image_toolbar_button_like" />
+
+        <Button
+            android:id="@id/news_detail_buttom_layout_btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/news_detail_buttom_layout_btn2"
+            android:background="@drawable/image_toolbar_button_favorites" />
+
+        <Button
+            android:id="@id/news_detail_buttom_layout_btn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/news_detail_buttom_layout_btn3"
+            android:background="@drawable/image_toolbar_button_font_size" />
+
+        <Button
+            android:id="@id/news_detail_buttom_layout_btn5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/news_detail_buttom_layout_btn4"
+            android:background="@drawable/image_toolbar_button_source" />
+    </RelativeLayout>
+
+</RelativeLayout>

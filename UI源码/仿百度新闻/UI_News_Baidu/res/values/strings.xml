@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">涛涛新闻</string>
+    <string name="maintab_buttom_1">新闻</string>
+    <string name="maintab_buttom_2">关注</string>
+    <string name="maintab_buttom_3">热销</string>
+    <string name="maintab_buttom_4">财经指数</string>
+    <string name="maintab_buttom_5">搜新闻</string>
+    <string name="news_title">小小吴微博发布了</string>
+    <string name="news_daytime">2012-08-22 17:33:21</string>
+    <string name="news_zuozhe">作者:小小吴</string>
+    <string name="news_content">接触android有一段时间了，准备做个简单的demo , 本来打算做在线视频播放器，觉得自己技术还不够，就先做几个漂亮的UI吧，自己又想不出来什么漂亮的，最近一直在手机上一直百度新闻觉得挺好看方便！就准备模仿下百度新闻了。
+废话不多说，先来一张效果图，这是UI部分的。
+自己的Demo也给传上来，里面用的布局技术还是挺广的，代码写得不是很规范，不过我做好了UI和demo就会来巴士发帖，
+以后每天发一帖和上传demo，希望大家看了之后能多多给意见！</string>
+
+</resources>

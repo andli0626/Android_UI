@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_radio"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="bottom"
+    android:background="@drawable/main_bottombar_bg"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/tab1"
+        style="@style/bottom_button"
+        android:tag="radio_button2"
+        android:text="黄浦主页"
+        android:textStyle="bold" />
+
+    <ImageView
+        style="@style/main_footbar_cutline"
+        android:src="@drawable/bottom_cutline" />
+
+    <Button
+        android:id="@+id/tab2"
+        style="@style/bottom_button"
+        android:tag="radio_button2"
+        android:text="黄浦要闻"
+        android:textStyle="bold" />
+
+    <ImageView
+        style="@style/main_footbar_cutline"
+        android:src="@drawable/bottom_cutline" />
+
+    <Button
+        android:id="@+id/tab3"
+        style="@style/bottom_button"
+        android:tag="radio_button2"
+        android:text="便民提示"
+        android:textStyle="bold" />
+
+    <ImageView
+        style="@style/main_footbar_cutline"
+        android:src="@drawable/bottom_cutline" />
+
+    <Button
+        android:id="@+id/tab4"
+        style="@style/bottom_button"
+        android:tag="radio_button2"
+        android:text="黄浦概览"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/nextimg"
+        style="@style/main_footbar_cutline"
+        android:src="@drawable/next_button" />
+
+</LinearLayout>

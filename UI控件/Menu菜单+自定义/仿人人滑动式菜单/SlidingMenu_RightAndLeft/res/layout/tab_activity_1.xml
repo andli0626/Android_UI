@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/blue"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="这是第一个activity"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/showrightmenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="显示右菜单" />
+
+    <Button
+        android:id="@+id/showleftmenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="显示左菜单" />
+
+</LinearLayout>

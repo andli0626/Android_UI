@@ -1,0 +1,25 @@
+F:\workspace\SlidingMenu\bin\SildingMenu.ap_ \
+ : F:\workspace\SlidingMenu\res\drawable-hdpi\ic_action_search.png \
+F:\workspace\SlidingMenu\res\drawable-hdpi\ic_launcher.png \
+F:\workspace\SlidingMenu\res\drawable-ldpi\ic_launcher.png \
+F:\workspace\SlidingMenu\res\drawable-mdpi\ic_action_search.png \
+F:\workspace\SlidingMenu\res\drawable-mdpi\ic_launcher.png \
+F:\workspace\SlidingMenu\res\drawable-xhdpi\ic_action_search.png \
+F:\workspace\SlidingMenu\res\drawable-xhdpi\ic_launcher.png \
+F:\workspace\SlidingMenu\res\layout\activity_main.xml \
+F:\workspace\SlidingMenu\res\layout\tab_activity_1.xml \
+F:\workspace\SlidingMenu\res\layout\tab_activity_2.xml \
+F:\workspace\SlidingMenu\res\layout\tab_activity_3.xml \
+F:\workspace\SlidingMenu\res\layout\tab_activity_4.xml \
+F:\workspace\SlidingMenu\res\menu\activity_main.xml \
+F:\workspace\SlidingMenu\res\values\colors.xml \
+F:\workspace\SlidingMenu\res\values\strings.xml \
+F:\workspace\SlidingMenu\res\values\styles.xml \
+F:\workspace\SlidingMenu\bin\res\drawable-hdpi\ic_action_search.png \
+F:\workspace\SlidingMenu\bin\res\drawable-hdpi\ic_launcher.png \
+F:\workspace\SlidingMenu\bin\res\drawable-ldpi\ic_launcher.png \
+F:\workspace\SlidingMenu\bin\res\drawable-mdpi\ic_action_search.png \
+F:\workspace\SlidingMenu\bin\res\drawable-mdpi\ic_launcher.png \
+F:\workspace\SlidingMenu\bin\res\drawable-xhdpi\ic_action_search.png \
+F:\workspace\SlidingMenu\bin\res\drawable-xhdpi\ic_launcher.png \
+F:\workspace\SlidingMenu\bin\AndroidManifest.xml \

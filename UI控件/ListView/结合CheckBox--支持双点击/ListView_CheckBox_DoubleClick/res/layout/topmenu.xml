@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" > <!-- #18335E #29619C -->
+
+    <RelativeLayout
+        android:id="@+id/line11"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/topmenu_height"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/toolbarbg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/topback_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/icon_menu_back_selector"
+            android:gravity="center" >
+        </Button>
+
+        <Button
+            android:id="@+id/topemenu_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp" >
+        </Button>
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:textSize="25sp"
+            android:textStyle="bold" >
+        </TextView>
+    </RelativeLayout>
+</RelativeLayout>

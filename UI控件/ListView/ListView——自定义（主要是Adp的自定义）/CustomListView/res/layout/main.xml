@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/tasklist"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/dark_blue"
+        android:dividerHeight="1dp"
+        android:fitsSystemWindows="true"
+        android:stackFromBottom="false"
+        android:transcriptMode="alwaysScroll" />
+
+    <!--
+         <com.andli.customlistview.ADFListViewShowData1
+        android:id="@+id/listview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/dark_blue"
+        android:dividerHeight="1dp"
+        android:fitsSystemWindows="true"
+        android:stackFromBottom="false"
+        android:transcriptMode="alwaysScroll" />
+    -->
+
+</RelativeLayout>

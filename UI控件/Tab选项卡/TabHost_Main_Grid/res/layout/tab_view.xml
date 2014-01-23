@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="#8C8A8C" android:gravity="center"
+	android:orientation="vertical" android:id="@+id/tabsLayout"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<ImageView android:layout_gravity="center"
+				android:id="@+id/main_activity_tab_image" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:scaleType="center" />
+		</FrameLayout>
+		<FrameLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+			<TextView android:textSize="17sp" android:id="@+id/main_activity_tab_text"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="Title" />
+		</FrameLayout>
+</LinearLayout>

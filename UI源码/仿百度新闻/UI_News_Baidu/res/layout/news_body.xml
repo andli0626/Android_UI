@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+    <ScrollView
+        android:id="@id/news_detail_scrollview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <RelativeLayout
+            android:id="@id/news_detail_scrollview_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RelativeLayout
+                android:id="@id/news_detail_scrollview_layouttop"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@id/news_detail_scrollview_newstitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10.0dip"
+                    android:text="@string/news_title"
+                    android:textColor="@color/black"
+                    android:textSize="25.0sp" />
+
+                <TextView
+                    android:id="@id/news_detail_scrollview_newsdaytime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/news_detail_scrollview_newstitle"
+                    android:layout_marginLeft="12.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:text="@string/news_daytime" />
+
+                <TextView
+                    android:id="@id/news_detail_scrollview_newszuozhe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@id/news_detail_scrollview_newsdaytime"
+                    android:layout_marginLeft="15.0dip"
+                    android:layout_toRightOf="@id/news_detail_scrollview_newsdaytime"
+                    android:text="@string/news_zuozhe" />
+
+                <ImageView
+                    android:id="@id/news_detail_scrollview_newsunderline"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/image_list_separator_line" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@id/news_detail_scrollview_layout_buttom"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/news_detail_scrollview_layouttop"
+                android:layout_marginTop="10.0dip" >
+
+                <ImageView
+                    android:id="@id/news_detail_scrollview_layout_buttom_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/image_prompt_smiley" />
+
+                <TextView
+                    android:id="@id/news_detail_scrollview_layout_buttom_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/news_detail_scrollview_layout_buttom_image"
+                    android:layout_marginLeft="20.0dip"
+                    android:layout_marginRight="20.0dip"
+                    android:layout_marginTop="10.0dip"
+                    android:text="@string/news_content"
+                    android:textColor="@color/black"
+                    android:textSize="20.0sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

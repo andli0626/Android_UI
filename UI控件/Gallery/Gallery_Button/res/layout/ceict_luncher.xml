@@ -1,0 +1,36 @@
+<LinearLayout android:id="@+id/LinearLayout01"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              android:gravity="center|bottom"
+              android:orientation="vertical"
+              android:background="@drawable/aqi"
+              	
+              >
+    <ImageView android:layout_marginTop="-60dip"
+               android:paddingLeft="20dip"
+               android:paddingRight="20dip"
+               android:scaleType="centerInside"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:id="@+id/logo">
+    </ImageView>
+    <!--
+    android:typeface 字体风格
+     android:textColor="@drawable/white"
+    <TextView android:text="@+id/TextView01"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="20dip"
+              android:typeface="serif"
+              android:shadowDx="0"
+              android:shadowDy="2"
+              android:shadowRadius="1"
+              android:shadowColor="#FFFFFF"
+              
+              android:textSize="20dip"
+              android:id="@+id/versionNumber"
+              android:gravity="center_horizontal"
+              >
+    </TextView>-->
+</LinearLayout>
